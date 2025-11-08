@@ -21,7 +21,6 @@ export default function TodoItem({ todo, onToggle, onRemove }: TodoItemProps) {
   return (
     <li>
       <input type="checkbox" checked={todo.done} onChange={handleToggle} />
-      {/* todo.done이 true이면 'done' 클래스 추가 (취소선용) */}
       <span className={todo.done ? 'done' : ''}>{todo.text}</span>
       <button onClick={handleRemove}>X</button>
     </li>

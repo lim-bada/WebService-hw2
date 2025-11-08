@@ -40,7 +40,7 @@ export default function App() {
         todos={todos}
         onToggle={handleToggle}
         onRemove={handleRemove}
-      /> {/* <-- [수정됨] 불필요한 '}'를 삭제했습니다. */}
+      />
     </TodoTemplate>
   );
 }
