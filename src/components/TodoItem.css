@@ -1,0 +1,18 @@
+/* 완료된 항목에 취소선 적용 */
+.done {
+  text-decoration: line-through;
+  color: #888;
+}
+
+/* (선택) 과제1처럼 레이아웃 정렬용 */
+li {
+  display: flex;
+  align-items: center;
+}
+li span {
+  flex-grow: 1;
+  margin-left: 8px;
+}
+li button {
+  margin-left: auto;
+}
